@@ -25,12 +25,12 @@
  
  Установка успешна 
   
- ![screen1](https://github.com/elekpow/hw-01/blob/main/zabbix.JPG)  
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/zabbix.JPG)  
  
  Авторизации в админке
  
  
- ![screen1](https://github.com/elekpow/hw-01/blob/main/zabbix_login.JPG)  
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/zabbix_login.JPG)  
   
   
   
