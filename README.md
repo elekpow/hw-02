@@ -22,6 +22,21 @@
 
 ### Выполнение задания 
   
+ 
+ Установка успешна 
+  
+ ![screen1](https://github.com/elekpow/hw-01/blob/main/zabbix.JPG)  
+ 
+ Авторизации в админке
+ 
+ 
+ ![screen1](https://github.com/elekpow/hw-01/blob/main/zabbix_login.JPG)  
+  
+  
+  
+  
+  
+  
 ---
 
 ### Задание 2
