@@ -33,8 +33,16 @@
  ![screen1](https://github.com/elekpow/hw-02/blob/main/zabbix_login.JPG)  
   
   
-  
-  
+ 
+ git add .     
+ git commit -m "Readme.md"    
+ git push   
+ 
+ git add .     
+ git commit -m "Update Readme"    
+ git push  
+ 
+   
   
   
 ---
