@@ -22,6 +22,9 @@
 
 ### Выполнение задания 
   
+Виртуальные машины устновлены в Yandex Cloud  
+  
+ ----------------------------------------
  
  Установка успешна 
   
@@ -32,7 +35,7 @@
  
  ![screen1](https://github.com/elekpow/hw-02/blob/main/zabbix_login.JPG)  
   
-  
+ 
  
  git add .     
  git commit -m "Readme.md"    
@@ -92,11 +95,37 @@
 
 Приложите в файл README.md скриншот раздела Latest Data, где видно свободное место на диске C:
 
-
-
 ---
 
 ### Выполнение задания   
+
+
+1) Zabbix сервер устновлен на виртуальной машине. Агент для ОС Windows установлен на локальном компьютере, в брандмауре открыт порт 10050 и а также разрешение для приложения Zabbix Agent
+
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/FW_Windows.JPG)
+
+2) для того что бы получить  доступ из вне необходим "белый ip" или же просто в роутере настроить DDNS
+через сервис провайдера, например no-ip.com  , кроме того , "для теста" в роутере временно  открыт полный доступ по порту 10050
+
+3) имеем доступ к компьютеру по доменному имени  проверяем, telnet int93302.hopto.org 10050
+порт открыт.  
+
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/telnet.JPG)
+
+
+Данные отправляются
+
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/Zabbix_Agent_windows.JPG)
+ 
+мониторинг показывает проблему  
+ 
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/Zabbix_Agent_windows_monitor.JPG)
+  
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/Zabbix_Agent_windows_problem.JPG)
+
+на локальном компьютере с Windows на диске C: занято более 90% места.
+
+
 
 
 
