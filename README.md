@@ -59,7 +59,7 @@
  2. Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server
  3. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
  4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
- 5.  Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
+ 5. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
 
 
 ---
@@ -67,7 +67,19 @@
 ### Выполнение задания 
   
   
+   Установлен агент на двух виртуальных машинах (host и  Elvm2)
   
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/Zabbix_Agent.JPG) 
+ 
+  Подключение успешно 
+ 
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/Zabbix_Agent_configiration.JPG)
+ 
+ данные принимаются, пример  виртуальная машина Elvm2
+ 
+ ![screen1](https://github.com/elekpow/hw-02/blob/main/Zabbix_Agent_LatestData_Elvm2.JPG)
+  
+   
   
   
 ---
@@ -82,7 +94,9 @@
 
 
 
-
 ---
 
 ### Выполнение задания   
+
+
+
