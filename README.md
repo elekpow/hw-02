@@ -38,6 +38,8 @@
  git commit -m "Readme.md"    
  git push   
  
+ git status
+ 
  git add .     
  git commit -m "Update Readme"    
  git push  
